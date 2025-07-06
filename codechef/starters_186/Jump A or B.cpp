@@ -30,3 +30,5 @@ int main()
         cout << (possible ? "YES" : "NO") << endl;
     }
 }
+
+hellor am good
