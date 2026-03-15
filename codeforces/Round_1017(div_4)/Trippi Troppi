@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+ 
+int main() {
+    int t;
+    cin >> t;  // Read the number of test cases
+    
+    while (t--) {
+        string str1, str2, str3;
+        cin >> str1 >> str2 >> str3;  // Read the three strings for each test case
+        
+        // Extract the first letter of each string and concatenate them
+        string modern_name = "";
+        modern_name += str1[0];  // First letter of first string
+        modern_name += str2[0];  // First letter of second string
+        modern_name += str3[0];  // First letter of third string
+        
+        cout << modern_name << endl;  // Output the modern name
+    }
+    
+    return 0;
+}
